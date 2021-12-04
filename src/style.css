@@ -113,3 +113,18 @@ h4 {
   color: #ffc4c0;
   transition: all 200ms ease-in-out;
 }
+.image-about {
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .index-project-sm {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me-sm {
+    font-size: 58px;
+  }
+}
