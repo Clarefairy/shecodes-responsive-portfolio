@@ -1,0 +1,115 @@
+:root {
+  --main-color: #f65282;
+  --light-supporting-color: rgba(254, 181, 200);
+  --box-shadow: rgba(246, 82, 129, 0.08);
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 60px auto;
+  text-align: center;
+}
+
+h1 {
+  color: var(--main-color);
+  font-size: 72px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: var(--light-supporting-color);
+  margin: 0 auto;
+}
+
+h4 {
+  margin: 10px auto;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.btn-main-style {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.btn-main-style:hover {
+  color: var(--light-supporting-color);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-secondary-style {
+  border: 1px solid var(--main-color);
+  color: var(--main-color);
+}
+
+.btn-secondary-style:hover {
+  color: var(--light-supporting-color);
+  transition: all 200ms ease-in-out;
+}
+
+.btn-project-style {
+  background: var(--main-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+
+.btn-project-style:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 40px 0;
+}
+
+.about-me p {
+  margin: 10px;
+  background: var(--box-shadow);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 20px;
+  flex: 1;
+}
+
+.contact-me {
+  font-size: 40px;
+  margin: 30px auto 0;
+}
+
+.email-link {
+  color: var(--main-color);
+  margin: 50px auto;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: var(--light-supporting-color);
+  text-decoration: underline;
+  transition: all 200ms ease-in-out;
+}
+
+.footer a {
+  color: #f65282;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffc4c0;
+  transition: all 200ms ease-in-out;
+}
