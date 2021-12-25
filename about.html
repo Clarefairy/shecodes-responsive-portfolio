@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="src/style.css" />
     <title>About Clare</title>
   </head>
-  <body class="about-body">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
+  <body>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light container">
+      <div class="container-fluid p-0">
         <a class="navbar-brand" href="/" title="homepage">CS</a>
         <button
           class="navbar-toggler"
@@ -35,28 +35,32 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-ite mx-3">
               <a class="nav-link" href="/" title="homepage">Home</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="about.html" title="About Clare Seah">About me</a>
+              <a class="nav-link" href="about.html" title="About Clare Seah">About</a>
+            </li>
+            <li class="nav-ite mx-3">
+              <a class="nav-link" href="portfolio.html" title="Clare's Portfolio">Portfolio</a>
             </li>
             <li class="nav-item mx-3">
-              <a class="nav-link" href="about.html#contact-me" title="Contact Clare Seah">Contact me</a>
+              <a class="nav-link" href="about.html#contact-me" title="Contact Clare Seah">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="row about-me">
-        <div class="col-6">
+
+    <div class="content-container content-container-about container">
+      <div class="row content about-sm">
+        <div class="col-md-6">
           <h2>Hi, I'm</h2>
-          <h1 class="about-me-sm">Clare Seah</h1>
+          <h1>Clare Seah</h1>
           <h4 class="mb-3">Front-end developer from Singapore 🇸🇬</h4>
-          <p>
+          <p class="pb-4">
             Welcome to my page! As you already know, I'm Clare ☺ <br />
             I was a Product Manager in the digital arm of Sephora SEA where I was responsible for coordinating full
             product development lifecycles. Whilst working very closely with the engineering team, I developed an
@@ -64,17 +68,31 @@
             knowledge would have an edge over others. Which is why I started attending SheCodes workshops in September
             '21. I seek to become a full-time developer after completing the course!
           </p>
-          <div class="about-project-link">
+          <div class="button">
             <a href="/" class="btn-main-style" title="Clare's projects">View my projects</a>
           </div>
           <div>
-            <h3 class="contact-me mt-5 pt-3" id="contact-me">💌 Contact me</h3>
+            <h3 class="mt-5 mb-0">💌 Contact me</h3>
             <a href="clareseah@gmail.com" class="email-link">clareseah@gmail.com</a>
           </div>
         </div>
-        <div class="col-6">
-          <img src="images/profile.png" class="profile-img d-block mx-auto" />
+        <div class="col-md-6">
+          <img src="images/profile.png" class="profile-img img-fluid d-block mx-auto" />
         </div>
+      </div>
+
+      <div class="footer">
+        <footer>
+          <a href="mailto:clareseah@gmail.com"><i class="far fa-envelope"></i></a>
+          <a href="https://www.linkedin.com/in/clare-seah/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://github.com/Clarefairy"><i class="fab fa-github-square"></i></a>
+          <p>
+            <a href="https://github.com/Clarefairy" target="_blank" title="Visit Clare's github profile"
+              >Open-source code</a
+            >
+            by Clarefairy
+          </p>
+        </footer>
       </div>
     </div>
   </body>
