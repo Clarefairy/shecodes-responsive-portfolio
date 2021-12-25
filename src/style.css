@@ -4,7 +4,7 @@
   --box-shadow: rgba(246, 82, 129, 0.08);
 }
 
-body {
+.index-body {
   font-family: "Courier New", Courier, monospace;
   margin: 60px auto;
   text-align: center;
@@ -16,13 +16,9 @@ h1 {
   margin: 0 auto;
 }
 
-h3 {
+.index-job {
   color: var(--light-supporting-color);
   margin: 0 auto;
-}
-
-h4 {
-  margin: 10px auto;
 }
 
 .navigation-links {
@@ -70,28 +66,6 @@ h4 {
   transition: all 200ms ease-in-out;
 }
 
-.about-me {
-  display: flex;
-  justify-content: space-between;
-  margin: 20px 40px 0;
-}
-
-.about-me p {
-  margin: 10px;
-  background: var(--box-shadow);
-  border-radius: 4px;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  padding: 20px;
-  flex: 1;
-}
-
-.contact-me {
-  font-size: 40px;
-  margin: 30px auto 0;
-}
-
 .email-link {
   color: var(--main-color);
   margin: 50px auto;
@@ -127,4 +101,39 @@ h4 {
   .about-me-sm {
     font-size: 58px;
   }
+}
+
+/* about page */
+
+.about-body {
+  font-family: "Courier New", Courier, monospace;
+  margin: 60px auto;
+}
+
+.about-me {
+  position: relative;
+  top: 25px;
+}
+
+.about-me h2 {
+  margin: 0 auto;
+}
+
+.profile-img {
+  max-height: 600px;
+  border-radius: 20px;
+}
+.about-project-link {
+  margin-top: 40px;
+}
+.about-project-link a {
+  margin: 20px auto;
+  border-radius: 4px;
+  padding: 20px 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.contact-me {
+  margin: 30px auto 0;
 }
