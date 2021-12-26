@@ -19,6 +19,11 @@ body {
   margin: 60px auto 0;
 }
 
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: var(--main-color);
+}
+
 .content h1 {
   color: var(--main-color);
   font-size: 72px;
@@ -163,7 +168,7 @@ footer a:hover {
   }
 
   .about-sm img {
-    margin: 10px auto;
+    margin: 40px auto 0;
     width: 75%;
   }
 
