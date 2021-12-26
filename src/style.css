@@ -33,9 +33,11 @@ body {
   text-align: justify;
 }
 
-/* .content p {
-  text-align: justify;
-} */
+.content .hero {
+  background-color: #fff1f5;
+  padding: 15px 0;
+  text-align: center;
+}
 
 .content .button a {
   border-radius: 4px;
@@ -78,23 +80,17 @@ body {
   border-radius: 20px;
 }
 
-.content .email-link {
+.content .link {
   color: var(--main-color);
   text-decoration: none;
 }
 
-.content .email-link:hover {
+.content .link:hover {
   color: var(--light-supporting-color);
   transition: all 200ms ease-in-out;
 }
 
 /* index */
-
-.content .introduction {
-  background-color: #fff1f5;
-  padding: 15px 0;
-  text-align: center;
-}
 
 .content .introduction .button {
   display: flex;
@@ -125,6 +121,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* contact */
+.contact h1 {
+  font-size: 48px;
+  padding: 10px;
+}
+
+.contact i {
+  color: #ff4250;
 }
 /* footer */
 footer {
