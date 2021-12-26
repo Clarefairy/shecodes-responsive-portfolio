@@ -109,8 +109,13 @@ body {
   color: var(--main-color);
 }
 .content .featured-projs h4 {
-  margin: 24px auto 18px;
+  margin: 24px auto 0;
   text-align: center;
+}
+.content .featured-projs .proj-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*portfolio*/
