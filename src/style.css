@@ -44,6 +44,11 @@ body {
   text-align: center;
 }
 
+.content-container-contact {
+  background-color: #fff1f5;
+  padding: 15px 0;
+  text-align: center;
+}
 .content .button a {
   border-radius: 4px;
   padding: 20px 18px;
@@ -160,18 +165,30 @@ footer a:hover {
 
 /* media responsive CSS */
 @media (max-width: 768px) {
-  .about-sm {
+  .sm-device {
     text-align: center;
   }
-  .about-sm h1 {
+  .sm-device h1 {
     font-size: 58px;
   }
 
-  .about-sm img {
+  .sm-device img {
     margin: 40px auto 0;
     width: 75%;
   }
 
+  .proj-carousel {
+    display: block !important;
+  }
+
+  .proj-showcase {
+    padding: 0 !important;
+  }
+  .proj-showcase a img {
+    display: block;
+    width: 75%;
+    margin: 20px auto !important;
+  }
   footer {
     margin: 21px auto 0;
     text-align: center;
